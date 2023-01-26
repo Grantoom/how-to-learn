@@ -43,7 +43,7 @@
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
-  font-style: 600;
+  font-weight: 600;
 }
 
 .link {
@@ -114,7 +114,6 @@
 .two-columns__main-text {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
   width: 80%;
   min-width: 784px;
 }
@@ -343,7 +342,7 @@
 
 .logo__place_footer {
   width: 228px;
-  height: 32;
+  height: 32px;
 }
 
 .footer__author {
