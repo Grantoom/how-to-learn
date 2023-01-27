@@ -12,6 +12,7 @@
 }
 
 .header {
+  z-index: 1;
   display: flex;
   align-items: center;
   position: relative;
@@ -22,16 +23,15 @@
 }
 
 .header__logo {
-  z-index: 2;
   position: absolute;
   top: 30px;
   left: 64px;
   width: 228px;
   height: 32px;
+  overflow: hidden;
 }
 
 .header__title {
-  z-index: 2;
   width: 730px;
   margin: 0;
   margin-left: 64px;
@@ -45,10 +45,14 @@
  text-decoration: none;
 }
 
+.header__link:hover {
+  color: #00BFFF;
+  transition: color 0.3s linear;
+}
+
 .header__subtitle {
   margin: 0;
   position: absolute;
-  z-index: 2;
   left: 64px;
   bottom: 30px;
   width: 388px;
@@ -59,7 +63,7 @@
 
 .header__main-illustration {
   display: flex;
-  z-index: 1;
+  z-index: -1;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -69,7 +73,7 @@
 }
 
 .header__square-pic {
-  z-index: 0;
+  z-index: -2;
   margin-top: 64px;
   background-color: #2f80ed;
   position: absolute;
@@ -244,6 +248,11 @@
   z-index: 2;
 }
 
+.feynman__link:hover {
+  color: #00BFFF;
+  transition: color 0.3s linear;
+}
+
 .kaufman {
   display: flex;
   flex-direction: column;
@@ -252,7 +261,7 @@
   margin: 0 auto;
   overflow: hidden;
   background-color: #1f1f1f;
-  z-index: 0;
+  z-index: 1;
   color: white;
 }
 
@@ -396,6 +405,13 @@
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: #00BFFF;
+  transition: color 0.3s linear;
 }
