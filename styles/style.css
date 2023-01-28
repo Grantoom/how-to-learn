@@ -46,7 +46,7 @@
 }
 
 .header__link:hover {
-  color: #00bfff;;
+  color: #00bfff;
   transition: color .3s linear;
 }
 
@@ -405,6 +405,6 @@
 }
 
 .footer__column-link:hover {
-  color: #00bfff;;
+  color: #00bfff;
   transition: color .3s linear;
 }
