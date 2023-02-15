@@ -9,3 +9,7 @@
   background-color: #f2f2f2;
   overflow: hidden;
 }
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}

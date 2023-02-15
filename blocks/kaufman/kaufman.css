@@ -9,3 +9,7 @@
   z-index: 1;
   color: white;
 }
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
